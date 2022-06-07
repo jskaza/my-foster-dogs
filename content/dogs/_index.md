@@ -1,0 +1,4 @@
+---
+title: Dogs
+layout: "blog"
+---
