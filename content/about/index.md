@@ -1,12 +1,5 @@
 ---
-title: About the Event
+title: About this Site
 ---
 
-🎉🎉  Doggy Adoption Event 🎉🎉 
-
-We are so excited for our Dog Adoption Event!!! 
-
-Join us on May 14th, from 12p-3p at The Residence at Boylston Place in Chestnut Hill! Light refreshments and snacks, along with free parking will be available!! 
-
-If you’re interested in meeting some of our adoptable pals, we recommend filling out an application ahead of time and getting approved before the event. You can apply at- www.safewithusanimalrescue.org. 
-Keep an eye on this page because we will be sharing some of the pals who will be attending! 
+I began fostering dogs in March of 2022. I made this site so that I can have a place to share all the dogs, each with their own story, who have given me unconditional love. I hope I made each of their lives a bit better.

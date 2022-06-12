@@ -1,11 +1,16 @@
 <div class="p-2">
 <a href="{{ .Permalink }}">
   {{ if .Params.thumbnail }}
-  <div class="relative">
-    <img src="{{ .Site.BaseURL }}{{ .Params.thumbnail }}" alt="{{ .Params.title }}" class="rounded-lg shadow-sm w-full h-52 object-cover" />
-  </div>
+  {{/*  <div class="relative">  */}}
+    <div class="container">
+      <img src="{{ .Site.BaseURL }}{{ .Params.thumbnail }}" alt="{{ .Params.title }}" class="rounded-lg shadow-sm w-full h-52 object-cover" />
+      <div class="overlay rounded-lg shadow-sm w-full h-52 object-cover">
+        <div class="text">{{ .Params.title }}</div>
+      </div>
+    </div>
+    {{/*  <img src="{{ .Site.BaseURL }}{{ .Params.thumbnail }}" alt="{{ .Params.title }}" class="rounded-lg shadow-sm w-full h-52 object-cover" />  */}}
+  {{/*  </div>  */}}
   {{ end }}
-  <div class="my-2 text-xl font-semibold">{{ .Params.title }}</div>
   <div class="">{{ .Params.description }}</div>
 </a>
   {{ if .IsTranslated -}}
