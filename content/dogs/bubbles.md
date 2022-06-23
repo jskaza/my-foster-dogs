@@ -1,9 +1,10 @@
 ---
 title: "Bubbles"
-thumbnail: "/img/bubbles/bubbles_1.jpg"
+thumbnail: "bubbles/bubbles.jpeg"
 age: "9 mos"
 breed: "Pitbull/Lab Mix"
 lbs: 30
+dates: "03/22/22 - 05/-1/22"
 img_dir: "bubbles"
 ---
 

@@ -1,27 +1,36 @@
 {{ define "main" }}
 {{ $baseURL := .Site.BaseURL }}
-{{ if .Params.img_dir }}
+
+{{/*  {{ with .Resources.Get "img/biddie_1.jpg" }}
+  <img src="{{ .Permalink }}">
+{{ end }}  */}}
+<article class="prose lg:prose-lg mx-auto my-8 dark:prose-dark px-4">
+  {{ if .Params.img_dir }}
+
 <div>
   {{ partial "carousel.html" (dict "context" . "items" "1" "height" "80" "unit" "%" "duration" "5000" 
-  "img_dir" .Params.img_dir "baseURL" $baseURL) }}
-</div>
+  "img_dir" .Params.img_dir) }}
+</div> 
 {{ end }}
-<article class="prose lg:prose-lg mx-auto my-8 dark:prose-dark px-4">
 <h1 class="text-2xl font-bold mb-2">{{ .Title }}</h1>
-<hr>
-{{ if .Params.breed }}
+{{ with .Params.breed }}
 {{ partial "fontawesome.html" "paw" }}
-{{ .Params.breed }}
+{{ . }}
 &emsp; 
 {{ end }}
-{{ if .Params.age }}
+{{ with .Params.age }}
 {{ partial "fontawesome.html" "clock" }}
-{{ .Params.age }}
+{{ . }}
 &emsp; 
 {{ end }}
-{{ if .Params.lbs }}
+{{ with .Params.lbs }}
 {{ partial "fontawesome.html" "weight-scale" }}
-{{ .Params.lbs }} lbs
+{{ . }} lbs
+&emsp;
+{{ end }}
+{{ with .Params.dates }}
+{{ partial "fontawesome.html" "calendar" }}
+{{ . }}
 {{ end }}
   <!-- {{ if .Params.thumbnail }}
   <div class="relative max-w-lg mx-auto px-4">
@@ -30,5 +39,13 @@
   {{ end }} -->
 
     {{ .Content }}
+
+
+  {{/*  <img src='{{ (resources.Get "img/biddie_1.jpg").Permalink }}'>  */}}
+  
+
+
   </article>
+
+
 {{ end }}
