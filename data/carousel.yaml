@@ -1,26 +1,15 @@
   biddie: 
     - image: img/biddie/biddie_1.jpeg
     - image: img/biddie/biddie_2.jpeg
-    - image: img/biddie/biddie_3.jpeg
     
   bubbles: 
     - image: img/bubbles/bubbles.jpeg
     - image: img/bubbles/bubbles_1.jpg
-    - image: img/bubbles/bubbles_2.jpg
     - image: img/bubbles/bubbles_3.jpg
-    - image: img/bubbles/bubbles_4.jpg
-    - image: img/bubbles/bubbles_5.jpg
-    - image: img/bubbles/bubbles_6.jpg
-    - image: img/bubbles/bubbles_7.jpg
-    - image: img/bubbles/bubbles_8.jpg
     - image: img/bubbles/bubbles_9.jpg
-    - image: img/bubbles/bubbles_10.jpg
-    - image: img/bubbles/bubbles_11.jpg
     - image: img/bubbles/bubbles_12.jpg
     - image: img/bubbles/bubbles_13.jpg
 
   samson: 
     - image: img/samson/samson.jpg
     - image: img/samson/samson_2.jpeg
-    - image: img/samson/samson_3.jpg
-    - image: img/samson/samson_4.jpeg

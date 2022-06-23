@@ -15,22 +15,26 @@
 <h1 class="text-2xl font-bold mb-2">{{ .Title }}</h1>
 {{ with .Params.breed }}
 {{ partial "fontawesome.html" "paw" }}
+&nbsp;
 {{ . }}
 &emsp; 
 {{ end }}
 {{ with .Params.age }}
 {{ partial "fontawesome.html" "clock" }}
+&nbsp;
 {{ . }}
 &emsp; 
 {{ end }}
 {{ with .Params.lbs }}
 {{ partial "fontawesome.html" "weight-scale" }}
+&nbsp;
 {{ . }} lbs
 &emsp;
 {{ end }}
 {{ with .Params.dates }}
 {{ partial "fontawesome.html" "calendar" }}
-{{ . }}
+&nbsp;
+ {{ . }}
 {{ end }}
   <!-- {{ if .Params.thumbnail }}
   <div class="relative max-w-lg mx-auto px-4">
