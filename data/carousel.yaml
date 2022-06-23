@@ -2,7 +2,6 @@
     - image: img/biddie/biddie_1.jpeg
     - image: img/biddie/biddie_2.jpeg
     - image: img/biddie/biddie_3.jpeg
-    - image: img/biddie/biddie_4.jpeg
     
   bubbles: 
     - image: img/bubbles/bubbles.jpeg
