@@ -3,7 +3,7 @@
   {{ if .Params.thumbnail }}
   {{/*  <div class="relative">  */}}
     <div class="container">
-      <img src='{{ (resources.Get (printf "img/%s" $.Params.thumbnail)).Permalink }}' alt="{{ .Params.title }}" class="rounded-lg shadow-sm h-96 w-full object-cover" />
+      <img src='{{ (resources.Get (printf "img/%s" $.Params.thumbnail)).Permalink }}' alt="{{ .Params.title }}" class="rounded-lg shadow-sm lg:h-96  w-full object-cover" />
       <div class="overlay rounded-lg shadow-sm h-full object-cover">
         <div class="text">{{ .Params.title }}</div>
       </div>
