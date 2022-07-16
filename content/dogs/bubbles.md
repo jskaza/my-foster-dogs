@@ -4,7 +4,7 @@ thumbnail: "bubbles/bubbles.jpeg"
 age: "9 mos"
 breed: "Pitbull/Lab Mix"
 lbs: 30
-dates: "03/22/22 - 05/01/22","06/26/22 - 07/02/22"
+dates: "03/22/22 - 05/01/22, 06/26/22 - 07/02/22, 07/05/22 - 07/09/22"
 img_dir: "bubbles"
 ---
 
