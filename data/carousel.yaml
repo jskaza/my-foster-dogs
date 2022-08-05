@@ -13,3 +13,10 @@
   samson: 
     - image: img/samson/samson.jpg
     - image: img/samson/samson_2.jpeg
+
+  kelly: 
+    - image: img/kelly/kelly_1.jpg
+    - image: img/kelly/kelly_2.jpg
+    - image: img/kelly/kelly_3.jpg
+    - image: img/kelly/kelly_4.jpg
+    - image: img/kelly/kelly_5.jpg
