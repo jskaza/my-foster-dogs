@@ -2,7 +2,7 @@
 title: "Samson"
 thumbnail: "samson/samson.jpg"
 age: "6 yrs"
-breed: "American Bulldog Mix"
+breed: "St. Bernard Mix"
 lbs: 85
 dates: "05/10/22-05/11/22"
 img_dir: "samson"
