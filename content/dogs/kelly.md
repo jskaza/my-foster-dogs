@@ -2,9 +2,9 @@
 title: "Kelly"
 thumbnail: "kelly/kelly_1.jpg"
 age: "2 yrs"
-breed: "Boxer Mix"
+breed: "Boxer/Black Mouth Cur Mix"
 lbs: 35
-dates: "07/16/22-"
+dates: "07/16/22-10/14/22"
 img_dir: "kelly"
 ---
 

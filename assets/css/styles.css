@@ -1,10 +1,92 @@
-/* Tailwind base - put variables under: tailwind.config.js */
-@import "node_modules/tailwindcss/base";
-/* Tailwind component classes registered by plugins*/
-@import "node_modules/tailwindcss/components";
-/* Site Specific */
-@import "assets/css/site";
-/* Paginator */
-@import "assets/css/paginator";
-/* Tailwind's utility classes - generated based on config file */
-@import "node_modules/tailwindcss/utilities";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+body {
+    font-family: "Inter", sans-serif;
+
+}
+
+/* Fonts */
+
+/* inter-300 - latin */
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    src: url("/fonts/inter-v3-latin-300.eot");
+    /* IE9 Compat Modes */
+    src: local(""),
+        url("/fonts/inter-v3-latin-300.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */
+        url("/fonts/inter-v3-latin-300.woff2") format("woff2"),
+        /* Super Modern Browsers */
+        url("/fonts/inter-v3-latin-300.woff") format("woff"),
+        /* Modern Browsers */
+        url("/fonts/inter-v3-latin-300.ttf") format("truetype"),
+        /* Safari, Android, iOS */
+        url("/fonts/inter-v3-latin-300.svg#Inter") format("svg");
+    /* Legacy iOS */
+}
+
+/* inter-500 - latin */
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    src: url("/fonts/inter-v3-latin-500.eot");
+    /* IE9 Compat Modes */
+    src: local(""),
+        url("/fonts/inter-v3-latin-500.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */
+        url("/fonts/inter-v3-latin-500.woff2") format("woff2"),
+        /* Super Modern Browsers */
+        url("/fonts/inter-v3-latin-500.woff") format("woff"),
+        /* Modern Browsers */
+        url("/fonts/inter-v3-latin-500.ttf") format("truetype"),
+        /* Safari, Android, iOS */
+        url("/fonts/inter-v3-latin-500.svg#Inter") format("svg");
+    /* Legacy iOS */
+}
+
+/* inter-700 - latin */
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/fonts/inter-v3-latin-700.eot");
+    /* IE9 Compat Modes */
+    src: local(""),
+        url("/fonts/inter-v3-latin-700.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */
+        url("/fonts/inter-v3-latin-700.woff2") format("woff2"),
+        /* Super Modern Browsers */
+        url("/fonts/inter-v3-latin-700.woff") format("woff"),
+        /* Modern Browsers */
+        url("/fonts/inter-v3-latin-700.ttf") format("truetype"),
+        /* Safari, Android, iOS */
+        url("/fonts/inter-v3-latin-700.svg#Inter") format("svg");
+    /* Legacy iOS */
+}
+
+.inline-svg {
+    display: inline-block;
+    height: 1.25rem;
+    width: 1.25rem;
+    /* top: 0.15rem; */
+    position: relative;
+    vertical-align: middle;
+}
+
+.inline-svg-big {
+    display: inline-block;
+    height: 1.7rem;
+    width: 1.7rem;
+    vertical-align: middle;
+    /* opacity: 1 */
+}
+
+/* .inline-svg-big:hover {
+    opacity: 0.6
+  } */

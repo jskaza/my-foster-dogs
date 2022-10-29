@@ -1,55 +1,55 @@
 {{ define "main" }}
 {{ $baseURL := .Site.BaseURL }}
 
-{{/*  {{ with .Resources.Get "img/biddie_1.jpg" }}
-  <img src="{{ .Permalink }}">
-{{ end }}  */}}
-<article class="prose lg:prose-lg mx-auto my-8 dark:prose-dark px-4">
+{{/* {{ with .Resources.Get "img/biddie_1.jpg" }}
+<img src="{{ .Permalink }}">
+{{ end }} */}}
+<article class="prose lg:prose-lg mx-auto my-8 dark:prose-dark">
   {{ if .Params.img_dir }}
 
-<div>
-  {{ partial "carousel.html" (dict "context" . "items" "1" "height" "80" "unit" "%" "duration" "5000" 
-  "img_dir" .Params.img_dir) }}
-</div> 
-{{ end }}
-<h1 class="text-2xl font-bold mb-2">{{ .Title }}</h1>
-{{ with .Params.breed }}
-{{ partial "fontawesome.html" "paw" }}
-&nbsp;
-{{ . }}
-&emsp; 
-{{ end }}
-{{ with .Params.age }}
-{{ partial "fontawesome.html" "clock" }}
-&nbsp;
-{{ . }}
-&emsp; 
-{{ end }}
-{{ with .Params.lbs }}
-{{ partial "fontawesome.html" "weight-scale" }}
-&nbsp;
-{{ . }} lbs
-&emsp;
-{{ end }}
-{{ with .Params.dates }}
-{{ partial "fontawesome.html" "calendar" }}
-&nbsp;
- {{ . }}
-{{ end }}
+  <div>
+    {{ partial "carousel.html" (dict "context" . "items" "1" "height" "80" "unit" "%" "duration" "5000"
+    "img_dir" .Params.img_dir) }}
+  </div>
+  {{ end }}
+  <h1 class="text-2xl font-bold mb-2">{{ .Title }}</h1>
+  {{ with .Params.breed }}
+  {{ partial "fontawesome.html" "paw" }}
+  &nbsp;
+  {{ . }}
+  &emsp;
+  {{ end }}
+  {{ with .Params.age }}
+  {{ partial "fontawesome.html" "clock" }}
+  &nbsp;
+  {{ . }}
+  &emsp;
+  {{ end }}
+  {{ with .Params.lbs }}
+  {{ partial "fontawesome.html" "weight-scale" }}
+  &nbsp;
+  {{ . }} lbs
+  &emsp;
+  {{ end }}
+  {{ with .Params.dates }}
+  {{ partial "fontawesome.html" "calendar" }}
+  &nbsp;
+  {{ . }}
+  {{ end }}
   <!-- {{ if .Params.thumbnail }}
   <div class="relative max-w-lg mx-auto px-4">
     <img src="{{ .Params.thumbnail }}" class="rounded-lg shadow-sm w-full object-contain" />
   </div>
   {{ end }} -->
 
-    {{ .Content }}
+  {{ .Content }}
 
 
-  {{/*  <img src='{{ (resources.Get "img/biddie_1.jpg").Permalink }}'>  */}}
-  
+  {{/* <img src='{{ (resources.Get "img/biddie_1.jpg").Permalink }}'> */}}
 
 
-  </article>
+
+</article>
 
 
 {{ end }}

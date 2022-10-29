@@ -10,7 +10,7 @@ title = "My Foster Dogs"
 [params]
 
     # Enable the darkmode toggle in header
-    darkModeToggle = true
+    darkModeToggle = false
   
     # Enable search in header
     enableSearch = false
