@@ -4,7 +4,7 @@ thumbnail: "kelly/kelly_1.jpg"
 age: "2 yrs"
 breed: "Boxer/Black Mouth Cur Mix"
 lbs: 35
-dates: "07/16/22-10/14/22, 11/20/22-"
+dates: "07/16/22-10/14/22, 11/20/22-12/09/22"
 img_dir: "kelly"
 ---
 
