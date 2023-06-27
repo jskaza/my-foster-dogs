@@ -4,7 +4,7 @@ thumbnail: "brody/brody_1.jpeg"
 age: "3 mos"
 breed: "Pitbull/Lab Mix"
 lbs: 10
-dates: "04/10/23-"
+dates: "04/10/23-05/12/23"
 img_dir: "brody"
 ---
 
